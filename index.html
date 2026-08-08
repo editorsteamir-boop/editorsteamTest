@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00d9ff">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="description" content="تقویم آموزش حرفه‌ای ادیت با موبایل در ۸۴ روز، همراه با لینک آموزش‌های روبیکا، ثبت پیشرفت و یادداشت.">
+<meta name="application-name" content="EditorsTeam">
+<meta name="apple-mobile-web-app-title" content="EditorsTeam">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="./manifest.json?v=6.0.0">
+<link rel="icon" href="./assets/images/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./assets/images/icon-192.png">
+<title>تقویم آموزش حرفه‌ای ادیت با موبایل در ۸۴ روز</title>
+<link rel="stylesheet" href="./assets/css/sales.css?v=1.0.0">
+<link rel="stylesheet" href="./assets/css/main.css?v=6.0.2">
+<!-- Editors Calendar v15: offline font ready for GitHub/APK -->
+</head>
+<body class="splash-lock">
+<div id="splashIntro" aria-label="EditorsTeam intro">
+  <img class="splash-logo" src="./assets/images/logo-transparent.png" alt="EditorsTeam" fetchpriority="high">
+  <div class="splash-title">EditorsTeam</div>
+  <div class="splash-loader"><span></span></div>
+</div>
+
+<div class="app">
+  <div class="hero">
+    <div class="logo-wrap">
+      <img class="logo" src="./assets/images/logo-transparent.png" alt="EditorsTeam" decoding="async">
+      <div>
+        <h1>تقویم آموزش حرفه‌ای ادیت با موبایل در ۸۴ روز</h1>
+      </div>
+    </div>
+    <div class="progress"><div id="bar" class="bar"></div></div>
+    <div class="actions">
+      <a class="btn supportBtn" href="https://rubika.ir/editorsteamir" target="_blank">کانال روبیکا<br></a>
+      <a class="btn secondary" href="https://rubika.ir/joing/BBAEJBICI0KSHFTVXWHINBVKFFWZDRXC" target="_blank">ارسال پروژه</a>
+    </div>
+  </div>
+
+<div class="bottom-nav">
+  <div class="nav-inner">
+    <button class="navbtn active" onclick="showView('dashboard', this)">خانه</button>
+    <button class="navbtn" onclick="showView('calendar', this)">تقویم</button>
+    <button class="navbtn" onclick="showView('notes', this)">یادداشت</button>
+    <button class="navbtn" onclick="showView('projects', this)">پروژه‌ها</button>
+    <button class="navbtn" onclick="showView('editors', this)">ادیتورها</button>
+  </div>
+</div>
+
+  <div id="dashboard" class="view active">
+    <div class="stats">
+      <div class="stat"><b id="doneCount">0</b><span>انجام‌شده</span></div>
+      <div class="stat"><b>84</b><span>روز</span></div>
+      <div class="stat"><b>12</b><span>هفته</span></div>
+      <div class="stat"><b id="percent">0٪</b><span>پیشرفت</span></div>
+    </div>
+    <div class="section-title"><span>آموزش‌های دوره</span><span id="todayInfo"></span></div>
+    <div class="home-note">با انتخاب هر آموزش، لینک ویدئوی همان آموزش در روبیکا برای شما باز می‌شود.</div>
+    <div class="summary-grid" id="summary"></div>
+  </div>
+
+  <div id="calendar" class="view">
+    <input id="search" class="search" placeholder="جستجو در آموزش‌ها...">
+    <div class="tabs" id="tabs"></div>
+    <div class="section-title"><span>برنامه روزانه</span><span id="resultCount"></span></div>
+    <div id="list"></div>
+  </div>
+
+  <div id="notes" class="view">
+    <div class="section-title"><span>یادداشت‌های ثبت‌شده</span><span>📝</span></div>
+    <div id="notesList"></div>
+  </div>
+
+
+  
+  
+<div id="projects" class="view">
+  <div id="projectsHome" class="project-page active">
+    <div class="section-title"><span>پروژه‌ها</span><span>🎨</span></div>
+    <div id="projectGrid" class="project-grid"></div>
+  </div>
+  <div id="projectDynamic" class="project-page">
+    <button class="back-btn" type="button" onclick="backProjects()">بازگشت به پروژه‌ها</button>
+    <div class="section-title"><span id="projectDynamicTitle">نمونه پروژه‌ها</span><span id="projectDynamicIcon">🎨</span></div>
+    <div id="projectDynamicGallery" class="gallery-grid"></div>
+  </div>
+</div>
+<div id="imageModal" class="image-modal" onclick="closeImage()">
+<button class="close-modal" onclick="closeImage()">×</button>
+<img id="modalImage" src="" alt="">
+</div>
+
+<div id="editors" class="view">
+  <div class="section-title"><span>ادیتورها</span><span>✦</span></div>
+  <div class="home-note">در لیست زیر مشخصات ادیتورها رو می‌تونی به‌دقت بررسی کنی 👇</div>
+  <div id="editorsList" class="editors-list"></div>
+</div>
+
+</div>
+
+<script src="./assets/js/plan.js?v=6.0.0" defer></script>
+<script src="./assets/js/app.js?v=11.0.0" defer></script>
+<script src="./assets/js/sales-public.js?v=1.0.0" defer></script>
+<script src="./assets/js/projects.js?v=11.0.0" defer></script>
+<script src="./assets/js/editors.js?v=9.0.0" defer></script>
+<div id="noteToast" class="note-toast">یادداشت ثبت شد</div>
+
+<script src="./assets/js/splash.js?v=11.0.0" defer></script>
+</body>
+</html>

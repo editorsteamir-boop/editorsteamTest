@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#090b14">
+  <title>پنل مدیریت EditorsTeam</title>
+  <link rel="stylesheet" href="./assets/css/admin.css?v=8.1.0">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">ET</div><div><strong>EditorsTeam</strong><span>مدیریت محتوا</span></div></div>
+      <nav class="side-nav">
+        <button class="active" data-tab-link="projectsTab"><span>▦</span><b>پروژه‌ها</b></button>
+        <button data-tab-link="editorsTab"><span>◉</span><b>ادیتورها</b></button>
+        <button data-tab-link="salesTab"><span>🛒</span><b>فروش و خریدها</b></button>
+        <button data-scroll="githubPanel"><span>⌁</span><b>اتصال GitHub</b></button>
+      </nav>
+      <div class="sidebar-tip"><span>🔒</span><p>توکن در فایل‌های پروژه ذخیره نمی‌شود و فقط در حافظه همین صفحه می‌ماند.</p></div>
+      <a class="view-site" href="./index.html"><span>↗</span> مشاهده سایت</a>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div><p class="eyebrow">داشبورد مدیریت</p><h1>سلام، آماده‌ای محتوا را به‌روز کنی؟</h1></div>
+        <div class="top-actions"><span class="live-pill"><i></i> پنل آنلاین</span><a href="./index.html">مشاهده سایت ↗</a></div>
+      </header>
+
+      <main class="admin-shell">
+        <section id="githubPanel" class="panel github-panel featured-panel">
+          <div class="panel-head">
+            <div class="panel-icon github-icon">⌁</div>
+            <div><span class="section-kicker">اتصال امن</span><h2>تنظیمات GitHub</h2><p>برای دریافت و ذخیره مستقیم اطلاعات، مشخصات مخزن را وارد کنید.</p></div>
+            <div id="connectionStatus" class="status">هنوز اتصال بررسی نشده است</div>
+          </div>
+          <div class="form-grid connection-grid">
+            <label><span>نام کاربری</span><input id="ghOwner" value="editorsteamir-boop"><small>مالک مخزن</small></label>
+            <label><span>نام مخزن</span><input id="ghRepo" placeholder="مثلاً EditorsTeam"><small>Repository</small></label>
+            <label><span>شاخه</span><input id="ghBranch" value="main"><small>Branch</small></label>
+            <label class="wide token-field"><span>توکن GitHub</span><div class="input-with-badge"><input id="ghToken" type="password" autocomplete="off" placeholder="github_pat_..."><em>محرمانه</em></div></label>
+            <label class="wide file-drop"><div class="drop-icon">⇧</div><div><strong>انتخاب فایل توکن از دسکتاپ</strong><span>فایل TXT را اینجا انتخاب کنید</span></div><input id="tokenFile" type="file" accept=".txt,text/plain"></label>
+          </div>
+          <div class="toolbar"><button id="connectBtn" class="primary-btn"><span>↻</span> بررسی اتصال و دریافت اطلاعات</button><button id="saveSettingsBtn" class="secondary"><span>✓</span> ذخیره تنظیمات غیرحساس</button></div>
+        </section>
+
+        <nav class="admin-tabs">
+          <button class="active" data-tab="projectsTab"><span>▦</span><div><b>مدیریت پروژه‌ها</b><small>افزودن و مرتب‌سازی گالری‌ها</small></div></button>
+          <button data-tab="editorsTab"><span>◉</span><div><b>مدیریت ادیتورها</b><small>پروفایل و اطلاعات اعضا</small></div></button>
+          <button data-tab="salesTab"><span>🛒</span><div><b>فروش و خریدها</b><small>قیمت، لینک آموزش و تراکنش‌ها</small></div></button>
+        </nav>
+
+        <section id="projectsTab" class="tab-panel active">
+          <div class="content-grid">
+            <div class="panel form-panel">
+              <div class="panel-title"><div><span class="section-kicker">فرم پروژه</span><h2 id="projectFormTitle">افزودن باکس پروژه</h2></div><button id="newProjectBtn" class="ghost-btn">＋ فرم جدید</button></div>
+              <form id="projectForm"><input id="projectId" type="hidden">
+                <div class="form-grid">
+                  <label><span>نام پروژه</span><input id="projectTitle" required placeholder="مثلاً کپ‌کات"></label>
+                  <label><span>آیکون</span><input id="projectIcon" value="🎨"></label>
+                  <label class="wide"><span>عنوان گالری</span><input id="projectDescription" placeholder="نمونه پروژه‌های ..."></label>
+                  <label class="switch-label"><span>وضعیت نمایش</span><div class="switch-wrap"><input id="projectActive" type="checkbox" checked><i></i><b>فعال باشد</b></div></label>
+                  <label class="wide file-drop image-drop"><div class="drop-icon">▧</div><div><strong>انتخاب تصاویر پروژه</strong><span>JPG/PNG هنگام ذخیره خودکار با کیفیت ۸۶٪ به WebP تبدیل می‌شوند</span></div><input id="projectImages" type="file" accept="image/*" multiple></label>
+                </div>
+                <div class="queue-head"><div><b>ترتیب تصاویر</b><span>با کلیدهای جهت ترتیب نمایش را تغییر دهید.</span></div></div>
+                <div id="projectImageQueue" class="image-queue"></div>
+                <div class="toolbar sticky-actions"><button type="submit" class="primary-btn">ذخیره پروژه روی GitHub</button><button id="cancelProjectEdit" type="button" class="secondary">انصراف</button></div>
+              </form>
+            </div>
+            <div class="panel list-panel"><div class="panel-title"><div><span class="section-kicker">فهرست محتوا</span><h2>باکس‌های پروژه</h2></div><span id="projectCount" class="count-badge"></span></div><div id="projectsAdminList" class="admin-list"></div></div>
+          </div>
+        </section>
+
+        <section id="editorsTab" class="tab-panel">
+          <div class="content-grid">
+            <div class="panel form-panel">
+              <div class="panel-title"><div><span class="section-kicker">فرم پروفایل</span><h2 id="editorFormTitle">افزودن ادیتور</h2></div><button id="newEditorBtn" class="ghost-btn">＋ فرم جدید</button></div>
+              <form id="editorForm"><input id="editorId" type="hidden">
+                <div class="editor-photo-row"><div class="avatar-frame"><img id="avatarPreview" src="./assets/images/default-avatar.svg" alt="پیش‌نمایش"><span>1:1</span></div><label class="file-drop compact-drop"><div><strong>تصویر پروفایل</strong><span>تصویر باید مربع باشد؛ هنگام ذخیره خودکار به WebP تبدیل می‌شود.</span></div><input id="editorImage" type="file" accept="image/*"></label></div>
+                <div class="form-grid">
+                  <label><span>نام و نشان</span><input id="fullName" required placeholder="نام کامل"></label>
+                  <label><span>عنوان یا نشان</span><input id="badge" placeholder="مثلاً ادیتور ارشد"></label>
+                  <label><span>سن</span><input id="age" inputmode="numeric"></label><label><span>شهر</span><input id="city"></label>
+                  <label class="wide"><span>حوزه کاری</span><input id="specialty" placeholder="تدوین، موشن گرافیک و..."></label>
+                  <label><span>امتیاز</span><input id="rating" placeholder="4.9"></label><label><span>تعداد پروژه</span><input id="projectsDone" inputmode="numeric"></label>
+                  <label class="wide file-drop image-drop"><div class="drop-icon">▧</div><div><strong>انتخاب عکس یا ویدئوی نمونه‌کار</strong><span>عکس و ویدئو را هم‌زمان انتخاب کنید؛ ترتیب نمایش قابل تغییر است.</span></div><input id="editorPortfolioImages" type="file" accept="image/*,video/mp4,video/webm,video/quicktime,.mp4,.webm,.mov" multiple></label>
+                  <div class="wide queue-head"><div><b>ترتیب نمونه‌کارها</b><span>با کلیدهای جهت، ترتیب عکس‌ها و ویدئوها را تغییر دهید.</span></div></div>
+                  <div id="editorPortfolioQueue" class="image-queue wide"></div>
+                  <label class="wide"><span>بیوگرافی</span><textarea id="bio" rows="4" placeholder="معرفی کوتاه ادیتور..."></textarea></label>
+                </div>
+                <div class="switches"><label class="switch-label"><span>تأییدشده</span><div class="switch-wrap"><input id="verified" type="checkbox"><i></i><b>تیک آبی</b></div></label><label class="switch-label"><span>وضعیت</span><div class="switch-wrap"><input id="online" type="checkbox"><i></i><b>آنلاین</b></div></label><label class="switch-label"><span>نمایش</span><div class="switch-wrap"><input id="editorActive" type="checkbox" checked><i></i><b>فعال باشد</b></div></label></div>
+                <div class="toolbar sticky-actions"><button type="submit" class="primary-btn">ذخیره ادیتور روی GitHub</button><button id="cancelEditorEdit" type="button" class="secondary">انصراف</button></div>
+              </form>
+            </div>
+            <div class="panel list-panel"><div class="panel-title"><div><span class="section-kicker">اعضای تیم</span><h2>ادیتورها</h2></div><span id="editorCount" class="count-badge"></span></div><div id="editorsAdminList" class="admin-list"></div></div>
+          </div>
+        </section>
+
+        <section id="salesTab" class="tab-panel">
+          <div class="panel requests-panel">
+            <div class="panel-title"><div><span class="section-kicker">فروش و پرداخت</span><h2>مدیریت فروش ویدئوهای آموزشی</h2><p>قیمت و لینک خصوصی Google Drive هر پروژه را اینجا ثبت کنید. لینک دانلود برای کاربران عمومی نمایش داده نمی‌شود.</p></div><span id="purchaseCount" class="count-badge">۰ خرید</span></div>
+            <div id="salesAuthBox" class="requests-auth-box"><div><b>ورود مدیر Supabase</b><p>برای ذخیره لینک‌های دانلود و مشاهده خریدها وارد حساب مدیر شوید.</p></div><div class="requests-auth-form"><input id="salesEmail" type="email" autocomplete="username" placeholder="ایمیل مدیر"><input id="salesPassword" type="password" autocomplete="current-password" placeholder="رمز عبور"><button id="salesCheckBtn" type="button" class="secondary">بررسی اتصال دیتابیس</button><button id="salesLoginBtn" type="button">ورود به مدیریت فروش</button></div><div id="salesConnectionStatus" class="db-connection-status neutral">وضعیت اتصال هنوز بررسی نشده است.</div></div>
+            <div id="salesWorkspace" hidden>
+              <div class="sales-toolbar"><button id="salesReloadBtn" type="button" class="secondary">↻ دریافت پروژه‌ها و قیمت‌ها</button><button id="salesLogoutBtn" type="button" class="danger">خروج مدیر</button></div>
+              <div id="salesStatus" class="requests-status">برای شروع، اطلاعات فروش را دریافت کنید.</div>
+              <div class="sales-two-col"><div><h3>قیمت و لینک آموزش</h3><div id="saleItemsAdminList" class="sale-admin-list"></div></div><div><h3>خریدهای ثبت‌شده</h3><div id="purchasesAdminList" class="admin-list requests-list"></div></div></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="./assets/js/github-admin.js?v=11.0.0"></script>
+  <script src="./assets/js/sales-admin.js?v=1.0.0"></script>
+  <script>
+    document.querySelectorAll('[data-tab-link]').forEach(btn=>btn.addEventListener('click',()=>document.querySelector('.admin-tabs button[data-tab="'+btn.dataset.tabLink+'"]').click()));
+    document.querySelectorAll('[data-scroll]').forEach(btn=>btn.addEventListener('click',()=>document.getElementById(btn.dataset.scroll).scrollIntoView({behavior:'smooth'})));
+    document.querySelector('.admin-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(!b)return;document.querySelectorAll('[data-tab-link]').forEach(x=>x.classList.toggle('active',x.dataset.tabLink===b.dataset.tab));});
+  </script>
+</body></html>

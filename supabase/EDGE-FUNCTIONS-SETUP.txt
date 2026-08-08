@@ -1,0 +1,6 @@
+پس از دریافت Merchant ID زرین‌پال، این Secretها را در Supabase Edge Functions تنظیم کنید:
+ZARINPAL_MERCHANT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+SITE_URL=https://YOUR-GITHUB-PAGES-ADDRESS
+
+سپس دو Function پوشه‌های create-payment و verify-payment را Deploy کنید.
+SUPABASE_URL و SUPABASE_SERVICE_ROLE_KEY در محیط Edge Function توسط Supabase در دسترس هستند.

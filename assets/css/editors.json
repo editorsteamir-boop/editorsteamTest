@@ -1,0 +1,19 @@
+[
+  {
+    "id": "editor-1",
+    "fullName": "محمد علی عبدی نیا",
+    "badge": "تدوینگر ارشد",
+    "age": "35",
+    "city": "کرمان",
+    "specialty": "طراح پوستر ، ویدیو و سایت",
+    "rating": "5",
+    "projects": "7200",
+    "bio": "متخصص تدوین ویدئوهای تبلیغاتی و پوستر ، ادمین حرفه ای، طراح سایت و متخصص ابزارهای هوش مصنوعی",
+    "image": "./assets/images/editors/editor-1.webp?v=1785677443894",
+    "verified": true,
+    "online": true,
+    "active": true,
+    "order": 1,
+    "portfolioImages": []
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "picsart",
+    "title": "پیکس آرت",
+    "icon": "🎨",
+    "description": "نمونه پروژه‌های پیکس آرت",
+    "active": true,
+    "order": 1,
+    "images": [
+      {
+        "src": "./assets/images/content/content-03.webp",
+        "alt": "پروژه پیکس آرت 1"
+      },
+      {
+        "src": "./assets/images/content/content-04.webp",
+        "alt": "پروژه پیکس آرت 2"
+      },
+      {
+        "src": "./assets/images/content/content-05.webp",
+        "alt": "پروژه پیکس آرت 3"
+      },
+      {
+        "src": "./assets/images/content/content-06.webp",
+        "alt": "پروژه پیکس آرت 4"
+      },
+      {
+        "src": "./assets/images/content/content-07.webp",
+        "alt": "پروژه پیکس آرت 5"
+      },
+      {
+        "src": "./assets/images/content/content-08.webp",
+        "alt": "پروژه پیکس آرت 6"
+      },
+      {
+        "src": "./assets/images/content/content-09.webp",
+        "alt": "پروژه پیکس آرت 7"
+      },
+      {
+        "src": "./assets/images/content/content-10.webp",
+        "alt": "پروژه پیکس آرت 8"
+      },
+      {
+        "src": "./assets/images/content/content-11.webp",
+        "alt": "پروژه پیکس آرت 9"
+      },
+      {
+        "src": "./assets/images/content/content-12.webp",
+        "alt": "پروژه پیکس آرت 10"
+      },
+      {
+        "src": "./assets/images/content/content-13.webp",
+        "alt": "پروژه پیکس آرت 11"
+      },
+      {
+        "src": "./assets/images/content/content-14.webp",
+        "alt": "پروژه پیکس آرت 12"
+      },
+      {
+        "src": "./assets/images/content/content-15.webp",
+        "alt": "پروژه پیکس آرت 13"
+      },
+      {
+        "src": "./assets/images/content/content-16.webp",
+        "alt": "پروژه پیکس آرت 14"
+      },
+      {
+        "src": "./assets/images/content/content-17.webp",
+        "alt": "پروژه پیکس آرت 15"
+      },
+      {
+        "src": "./assets/images/content/content-18.webp",
+        "alt": "پروژه پیکس آرت 16"
+      },
+      {
+        "src": "./assets/images/projects/picsart/1785587743343-01.webp",
+        "alt": "پیکس آرت 17"
+      }
+    ]
+  }
+]

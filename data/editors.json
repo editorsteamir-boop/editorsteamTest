@@ -1,0 +1,208 @@
+[
+  {
+    "id": "editor-1785758530231",
+    "fullName": "فاطمه یزدی",
+    "badge": "ادیتور ارشد",
+    "age": "38",
+    "city": "تهران",
+    "specialty": "لیسانس نرم افزار و طراح حرفه‌ای پوستر",
+    "rating": "5",
+    "projects": "31",
+    "portfolioImages": [
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758533068-01.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758535524-02.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758537938-03.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758540302-04.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758542883-05.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758545307-06.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758547691-07.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758550090-08.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758552335-09.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758554855-10.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758557639-11.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758560453-12.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758562762-13.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758565347-14.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758567628-15.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758570087-16.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758572422-17.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758574732-18.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758577168-19.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785758580135-20.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785931194-01.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785938326-02.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785947593-03.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785952380-04.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785957307-05.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785961253-06.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785968628-07.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785973891-08.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785978180-09.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785785983057-10.webp",
+      "./assets/images/editors/editor-1785758530231/portfolio/1785786402348-03.webp"
+    ],
+    "portfolioMedia": [
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758533068-01.webp",
+        "type": "image",
+        "title": "پروژه 1"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758535524-02.webp",
+        "type": "image",
+        "title": "پروژه 2"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758537938-03.webp",
+        "type": "image",
+        "title": "پروژه 3"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758540302-04.webp",
+        "type": "image",
+        "title": "پروژه 4"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758542883-05.webp",
+        "type": "image",
+        "title": "پروژه 5"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758545307-06.webp",
+        "type": "image",
+        "title": "پروژه 6"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758547691-07.webp",
+        "type": "image",
+        "title": "پروژه 7"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758550090-08.webp",
+        "type": "image",
+        "title": "پروژه 8"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758552335-09.webp",
+        "type": "image",
+        "title": "پروژه 9"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758554855-10.webp",
+        "type": "image",
+        "title": "پروژه 10"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758557639-11.webp",
+        "type": "image",
+        "title": "پروژه 11"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758560453-12.webp",
+        "type": "image",
+        "title": "پروژه 12"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758562762-13.webp",
+        "type": "image",
+        "title": "پروژه 13"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758565347-14.webp",
+        "type": "image",
+        "title": "پروژه 14"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758567628-15.webp",
+        "type": "image",
+        "title": "پروژه 15"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758570087-16.webp",
+        "type": "image",
+        "title": "پروژه 16"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758572422-17.webp",
+        "type": "image",
+        "title": "پروژه 17"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758574732-18.webp",
+        "type": "image",
+        "title": "پروژه 18"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758577168-19.webp",
+        "type": "image",
+        "title": "پروژه 19"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785758580135-20.webp",
+        "type": "image",
+        "title": "پروژه 20"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785931194-01.webp",
+        "type": "image",
+        "title": "پروژه 21"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785938326-02.webp",
+        "type": "image",
+        "title": "پروژه 22"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785947593-03.webp",
+        "type": "image",
+        "title": "پروژه 23"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785952380-04.webp",
+        "type": "image",
+        "title": "پروژه 24"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785957307-05.webp",
+        "type": "image",
+        "title": "پروژه 25"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785961253-06.webp",
+        "type": "image",
+        "title": "پروژه 26"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785968628-07.webp",
+        "type": "image",
+        "title": "پروژه 27"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785973891-08.webp",
+        "type": "image",
+        "title": "پروژه 28"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785978180-09.webp",
+        "type": "image",
+        "title": "پروژه 29"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785785983057-10.webp",
+        "type": "image",
+        "title": "پروژه 30"
+      },
+      {
+        "src": "./assets/images/editors/editor-1785758530231/portfolio/1785786402348-03.webp",
+        "type": "image",
+        "title": "پروژه 31"
+      }
+    ],
+    "bio": "",
+    "image": "./assets/images/editors/editor-1785758530231.webp?v=1785758533067",
+    "verified": true,
+    "online": true,
+    "active": true,
+    "order": 1
+  }
+]
